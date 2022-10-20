@@ -183,7 +183,8 @@ def prep_telco_data(df):
                               'streaming_movies', \
                               'contract_type', \
                               'internet_service_type', \
-                              'payment_type']], dummy_na=False, \
+                              'payment_type', \
+                                'churn']], dummy_na=False, \
                               drop_first=True)
     
     # Concatenate dummy dataframe to original 
